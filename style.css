@@ -1,0 +1,63 @@
+/* style the topnav links */
+#body2 {
+            background-image: url("title screen ggs67.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            min-height: 98.5vh;
+    }
+
+/* Style the topnav links */
+.topnav a {
+      float: left;
+      display: block;
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  color: #FFD700;
+  
+}
+
+.topnav a.active {
+  color: #FFD700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFD700;
+  text-align: center;
+}
+
+.active {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFD700;
+  text-align: center;
+}
